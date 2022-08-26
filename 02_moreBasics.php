@@ -36,8 +36,18 @@
     else{
         echo "You can not go to the party";
     }
+
+    echo "<br>";
+
+    // array in php
+
+    $langguages = array("Python", "C++", "php", "NodeJs");
+    echo ($langguages);
+
+    
     
     ?>
+
 
     </div>
 </body>
