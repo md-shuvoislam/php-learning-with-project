@@ -90,6 +90,21 @@
         echo $value;
     }
 
+    echo "<br>";
+
+    // function
+
+    function print_number($number){
+        echo "<br>Your number is ";
+        echo $number;
+    }
+    print_number(45);
+    print_number(455);
+    print_number(435);
+
+
+
+
 
 
 
