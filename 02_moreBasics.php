@@ -42,7 +42,58 @@
     // array in php
 
     $langguages = array("Python", "C++", "php", "NodeJs");
-    echo ($langguages);
+    // echo ($langguages);
+    //echo $langguages[0];
+
+    // loop in php
+
+    $a = 0;
+    while ($a <= 10){
+        echo "<br> The values of a is: ";
+        echo $a;
+        $a++;
+    }
+
+    echo "<br>";
+
+    // Iterating arrays in PHP using while loop
+
+    $a = 0;
+    while ($a < count($langguages)) {
+        echo "<br> The langguage is: "; 
+        echo $langguages[$a];
+        $a++;
+    }
+
+    echo "<br>";
+
+    // Do while loop
+    $a = 200;
+    do {
+        echo "<br>The value of a is: ";
+        echo $a;
+        $a++;
+    } while ($a < 10);
+
+    echo "<br>";
+
+    // For loop
+    for ($a=60; $a < 10; $a++) { 
+        echo "<br>The value of a from the for loop is: ";
+        echo $a;
+    }
+
+    echo "<br>";
+    // for each
+    foreach ($langguages as $value) {
+        echo "<br>The value from foreach loop is ";
+        echo $value;
+    }
+
+
+
+
+    
 
     
     
